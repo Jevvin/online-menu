@@ -36,6 +36,4 @@ La aplicación está preparada para desplegarse en [Vercel](https://vercel.com/)
 
 ## Despliegue en Vercel
 
-El archivo `public/index.html` redirige automáticamente a la página principal (
-`/`). Esto permite que Vercel muestre correctamente la app al acceder al domini
-o raiz.
+El archivo `public/index.html` redirige automaticamente a la pagina principal (`/`). Esto permite que Vercel muestre correctamente la app al acceder al dominio raiz.
