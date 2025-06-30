@@ -1,2 +1,39 @@
 # Online Menu
-Sistema de pedidos online para restaurantes
+
+Aplicación de menús en línea con pedidos para restaurantes. Basada en Next.js y TypeScript.
+
+## Características
+
+- Next.js con SSR y SSG
+- Rutas dinámicas: `/[restaurant]/menu`
+- Middleware para subdominios
+- Componentes reutilizables con Tailwind CSS y shadcn/ui
+- Integración con Supabase (base de datos y autenticación)
+
+## Desarrollo local
+
+```bash
+npm install
+npm run dev
+```
+
+Abre `http://localhost:3000` para ver la aplicación.
+
+## Conectar Supabase Auth
+
+1. Crea un proyecto en [Supabase](https://supabase.com).
+2. Obtén la URL del proyecto y la clave `anon` pública.
+3. Crea un archivo `.env.local` con:
+
+```bash
+NEXT_PUBLIC_SUPABASE_URL=tu_url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=tu_clave
+```
+
+Con esto la autenticación con Supabase estará lista para usar en los formularios.
+
+La aplicación está preparada para desplegarse en [Vercel](https://vercel.com/).
+
+## Despliegue en Vercel
+
+Simplemente realiza el despliegue con Vercel y la página de inicio (`/`) se servirá automáticamente desde Next.js. No es necesario un archivo `index.html` en la carpeta `public`.
