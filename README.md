@@ -36,4 +36,4 @@ La aplicación está preparada para desplegarse en [Vercel](https://vercel.com/)
 
 ## Despliegue en Vercel
 
-El archivo `public/index.html` redirige automaticamente a la página principal (`/`). Esto permite que Vercel muestre correctamente la app al acceder al dominio raíz.
+Simplemente realiza el despliegue con Vercel y la página de inicio (`/`) se servirá automáticamente desde Next.js. No es necesario un archivo `index.html` en la carpeta `public`.

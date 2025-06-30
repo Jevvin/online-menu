@@ -39,7 +39,3 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
-public/
-!public
-!public/index.html
-app/favicon.ico
