@@ -33,3 +33,9 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY=tu_clave
 Con esto la autenticación con Supabase estará lista para usar en los formularios.
 
 La aplicación está preparada para desplegarse en [Vercel](https://vercel.com/).
+
+## Despliegue en Vercel
+
+El archivo `public/index.html` redirige automáticamente a la página principal (
+`/`). Esto permite que Vercel muestre correctamente la app al acceder al domini
+o raiz.
